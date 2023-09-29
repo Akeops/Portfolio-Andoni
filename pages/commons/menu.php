@@ -2,7 +2,7 @@
 <nav class="navbar bg-body-tertiary">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">
-      <img src="source/images/icons8-livre-64.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+      <img src="images/icons8-livre-64.png" alt="Logo"  class="d-inline-block align-text-top">
       Bootstrap
     </a>
     <ul class="nav justify-content-end">
