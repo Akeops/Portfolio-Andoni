@@ -1,0 +1,21 @@
+/* GENERAL */
+*, *::before, *::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+/* MENU */
+.perso_bgBlack {
+    background-color: rgba(59,14,17,255) !important;
+}
+
+.perso_colorJaune {
+    color: rgba(255,211,130,255);
+    font-size: 20px;
+}
+
+.perso_colorJaune:hover {
+    color: rgba(224,121,28,255);
+}
