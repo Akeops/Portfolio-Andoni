@@ -11,11 +11,15 @@
     background-color: rgba(59,14,17,255) !important;
 }
 
-.perso_colorJaune {
-    color: rgba(255,211,130,255);
+.perso_colorJaune { /* Couleur jaune des liens navbar */
+    color: rgba(10,211,130,255) !important;
     font-size: 20px;
 }
 
 .perso_colorJaune:hover {
     color: rgba(224,121,28,255);
+}
+
+.perso_bgYellowDegrade { /* Couleur de fond du caroussel noir */
+    background-color: rgba(28,33,40,255);
 }
