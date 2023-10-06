@@ -6,6 +6,10 @@
     font-family: 'Playfair Display', serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* MENU */
 .perso_bgBlack {
     background-color: rgba(59,14,17,255) !important;

@@ -6,7 +6,7 @@
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="bg-warning" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="bg-warning" aria-label="Slide 3"></button>
     </div>
-    <div class="carousel-inner">
+    <div class="carousel-inner" id="accueil">
         <div class="carousel-item active">
             <img src="../source/images/img1.jpg" class="d-block w-75 h-75 mx-auto img-thumbnail border border-dark" alt="...">
         </div>
@@ -27,7 +27,7 @@
         </button>
 </div>
 
-<div class="container text-center ">
+<div class="container text-center" id="presentation">
     <h2 class="m-5 perso_colorYellow">Andoni Lalanne-Berdouticq</h2>
     <div class="ratio ratio-16x9">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/onY9eHi_eco?si=4GhBNwNYKLp3-EtG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
