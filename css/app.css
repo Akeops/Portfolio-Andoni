@@ -20,6 +20,12 @@
     color: rgba(224,121,28,255) !important;
 }
 
+
+/* CAROUSSEL */
 .perso_bgYellowDegrade { /* Couleur de fond du caroussel noir */
     background-color: rgba(28,33,40,255);
+}
+
+.perso_colorYellow { /* Couleur du titre de la section 2 */
+    color: rgba(224,121,28,255) !important;
 }

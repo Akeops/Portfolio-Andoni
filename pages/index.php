@@ -27,6 +27,11 @@
         </button>
 </div>
 
+<div class="container text-center ratio ratio-16x9">
+    <h2 class="m-5 perso_colorYellow">Andoni Lalanne-Berdouticq</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/onY9eHi_eco?si=4GhBNwNYKLp3-EtG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    test
+
 <?php
     $content = ob_get_clean();
     require "commons/template.php";
