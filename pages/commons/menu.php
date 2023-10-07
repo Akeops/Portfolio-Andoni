@@ -15,7 +15,7 @@
           <a class="nav-link" href="#presentation">Présentation</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Zelda</a>
+          <a class="nav-link" href="#competences">Compétences</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Mario</a>

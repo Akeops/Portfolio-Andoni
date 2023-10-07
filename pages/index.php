@@ -32,7 +32,21 @@
     <div class="ratio ratio-16x9">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/onY9eHi_eco?si=4GhBNwNYKLp3-EtG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
-    test
+</div>
+
+<div class="container text-center" id="competences">
+    <h2 class="m-5 perso_colorYellow"> Mes compétences</h2>
+    <div class="row">
+        <div class="col border border-dark">
+            HTML/CSS
+        </div>
+        <div class="col border border-dark">
+            PHP / POO
+        </div>
+    </div>
+    
+    
+</div>
 
 <?php
     $content = ob_get_clean();
