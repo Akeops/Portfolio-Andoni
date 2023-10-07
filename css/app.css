@@ -4,10 +4,15 @@
     padding: 0;
     margin: 0;
     font-family: 'Playfair Display', serif;
+    
 }
 
 html {
     scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgba(28,33,40,255) !important;
 }
 
 /* MENU */
@@ -30,6 +35,6 @@ html {
     background-color: rgba(28,33,40,255);
 }
 
-.perso_colorYellow { /* Couleur du titre de la section 2 */
+.perso_colorYellow { /* Couleur du titre des sections */
     color: rgba(224,121,28,255) !important;
 }

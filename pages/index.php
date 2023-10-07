@@ -37,13 +37,13 @@
 <div class="container text-center" id="competences">
     <h2 class="m-5 perso_colorYellow"> Mes compétences</h2>
     <div class="row">
-        <div class="col-4 border border-dark">
+        <div class="col-6 col-md-4 border border-danger-subtle perso_colorYellow">
             HTML/CSS
         </div>
-        <div class="col-4 border border-dark">
+        <div class="col-4 col-md-4 border border-danger-subtle perso_colorYellow">
             PHP / POO
         </div>
-        <div class="col-4 border border-dark">
+        <div class="col-4 col-md-4 border border-danger-subtle perso_colorYellow">
             Javascript / Node.js
         </div>
     </div>
