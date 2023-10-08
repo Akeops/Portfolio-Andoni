@@ -37,14 +37,29 @@
 <div class="container text-center" id="competences">
     <h2 class="m-5 perso_colorYellow"> Mes compétences</h2>
     <div class="row">
-        <div class="col-6 col-md-4 border border-danger-subtle perso_colorYellow">
+        <div class="col-12 col-md-6 perso_colorYellow">
             HTML/CSS
+            <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width: 50%">50%</div>
+            </div>
         </div>
-        <div class="col-4 col-md-4 border border-danger-subtle perso_colorYellow">
+        <div class="col-12 col-md-6 perso_colorYellow">
             PHP / POO
+            <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width: 25%">25%</div>
+            </div>
         </div>
-        <div class="col-4 col-md-4 border border-danger-subtle perso_colorYellow">
+        <div class="col-12 col-md-6 perso_colorYellow">
             Javascript / Node.js
+            <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width: 5%">5%</div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 perso_colorYellow">
+            SQL / PDO
+            <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width: 50%">50%</div>
+            </div>
         </div>
     </div>
     
