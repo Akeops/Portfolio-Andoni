@@ -18,7 +18,7 @@
           <a class="nav-link" href="#competences">Compétences</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Mario</a>
+          <a class="nav-link" href="#mesProjets">Mes projets</a>
         </li>
       </ul>
   </div>
