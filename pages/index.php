@@ -67,7 +67,7 @@
 <div class="container text-center" id="mesProjets">
     <h2 class="m-5 perso_colorYellow">Mes projets</h2>
     <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="../source/images/card1.jpg" class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title">Portfolio</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -75,7 +75,7 @@
         </div>
     </div>
     <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="../source/images/card3.png" class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title">ITwatchdog</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -83,7 +83,7 @@
         </div>
     </div>
     <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="../source/images/card2.jpg" class="card-img-top" alt="...">
             div class="card-body">
             <h5 class="card-title">Je ne sais pas encore</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
