@@ -1,5 +1,6 @@
 <?php ob_start(); ?>
 
+<!-- Caroussel -->
 <div id="carouselExampleIndicators" class="carousel slide perso_bgYellowDegrade">
     <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active bg-warning" aria-current="true" aria-label="Slide 1"></button>
@@ -27,6 +28,7 @@
         </button>
 </div>
 
+<!-- Intégration vidéo -->
 <div class="container text-center" id="presentation">
     <h2 class="m-5 perso_colorYellow">Andoni Lalanne-Berdouticq</h2>
     <div class="ratio ratio-16x9">
@@ -34,6 +36,7 @@
     </div>
 </div>
 
+<!-- Progress bar -->
 <div class="container text-center" id="competences">
     <h2 class="m-5 perso_colorYellow"> Mes compétences</h2>
     <div class="row">
@@ -64,6 +67,7 @@
     </div>
 </div>
 
+<!-- Card -->
 <div class="container text-center" id="mesProjets">
     <h2 class="m-5 perso_colorYellow">Mes projets</h2>
     <div class="card" style="width: 18rem;">
