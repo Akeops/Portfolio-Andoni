@@ -31,7 +31,7 @@
 <!-- Intégration vidéo -->
 <div class="container text-center" id="presentation">
     <h2 class="m-5 perso_colorYellow">Andoni Lalanne-Berdouticq</h2>
-    <div class="ratio ratio-16x9">
+    <div class="ratio ratio-16x9 img-thumbnail">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/onY9eHi_eco?si=4GhBNwNYKLp3-EtG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
 </div>
@@ -76,7 +76,7 @@
         <div class="row">
             <div class="col">
                 <div class="card" style="width: 18rem;">
-                    <img src="../source/images/card1.jpg" class="card-img-top" alt="...">
+                    <img src="../source/images/card1.jpg" class="card-img-top" height="165px alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Portfolio</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -87,7 +87,7 @@
             </div>
             <div class="col">
                 <div class="card" style="width: 18rem;">
-                    <img src="../source/images/card3.png" class="card-img-top" alt="...">
+                    <img src="../source/images/card2.jpg" class="card-img-top" height="165px alt="...">
                     <div class="card-body">
                         <h5 class="card-title">ITwatchdog</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -97,7 +97,7 @@
             </div>
             <div class="col">
                 <div class="card" style="width: 18rem;">
-                    <img src="../source/images/card2.jpg" class="card-img-top" alt="...">
+                    <img src="../source/images/card3.jpg" class="card-img-top" height="165px alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Je ne sais pas encore</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -138,7 +138,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <img src="../source/images/card3.jpg" class="card-img-top" alt="...">
+                    <img src="../source/images/card2.jpg" class="card-img-top" alt="...">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel fugit nemo libero ipsa blanditiis earum unde, neque eum modi obcaecati repellendus odio quos deserunt sunt quia nobis reprehenderit! Laboriosam, optio.</p>
                 </div>
                 <div class="modal-footer">
@@ -157,7 +157,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <img src="../source/images/card2.jpg" class="card-img-top" alt="...">
+                    <img src="../source/images/card3.jpg" class="card-img-top" alt="...">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel fugit nemo libero ipsa blanditiis earum unde, neque eum modi obcaecati repellendus odio quos deserunt sunt quia nobis reprehenderit! Laboriosam, optio.</p>
                 </div>
                 <div class="modal-footer">
