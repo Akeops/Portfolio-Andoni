@@ -138,7 +138,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <img src="../source/images/card3.png" class="card-img-top" alt="...">
+                    <img src="../source/images/card3.jpg" class="card-img-top" alt="...">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel fugit nemo libero ipsa blanditiis earum unde, neque eum modi obcaecati repellendus odio quos deserunt sunt quia nobis reprehenderit! Laboriosam, optio.</p>
                 </div>
                 <div class="modal-footer">
