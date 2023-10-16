@@ -38,3 +38,11 @@ body {
 .perso_colorYellow { /* Couleur du titre des sections */
     color: rgba(224,121,28,255) !important;
 }
+
+img + h3 {
+    color: white;
+}
+
+img + h3 + p {
+    color: white;
+}

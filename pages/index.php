@@ -74,9 +74,9 @@
     <h2 class="m-5 perso_colorYellow">Mes projets</h2>
     <div class="m-5 container text-center">
         <div class="row">
-            <div class="col">
+            <div class="col-12 col-lg-4">
                 <div class="card" style="width: 18rem;">
-                    <img src="../source/images/card1.jpg" class="card-img-top" height="165px alt="...">
+                    <img src="../source/images/card1.jpg" class="card-img-top" height="165px" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Portfolio</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -85,9 +85,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-12 col-lg-4">
                 <div class="card" style="width: 18rem;">
-                    <img src="../source/images/card2.jpg" class="card-img-top" height="165px alt="...">
+                    <img src="../source/images/card2.jpg" class="card-img-top" height="165px" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">ITwatchdog</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -95,9 +95,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-12 col-lg-4">
                 <div class="card" style="width: 18rem;">
-                    <img src="../source/images/card3.jpg" class="card-img-top" height="165px alt="...">
+                    <img src="../source/images/card3.jpg" class="card-img-top" height="165px" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Je ne sais pas encore</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -170,16 +170,22 @@
     <!-- Section des témoignages -->
     <div class="container text-center" id="temoignages">
         <h2 class="m-5 perso_colorYellow">Mes témoignagent</h2>
-        <div class="m-5 container text-center">
+        <div class="container">
             <div class="row">
-                <div class="col">
-                    <img src="../source/images/card1.jpg" class="card-img-top" height="165px alt="..."> 
+                <div class="col-12 col-lg-4">
+                    <img src="../source/images/card1.jpg" class="card-img-top border border-danger-subtle rounded" style="width:150px;height:150px" alt="..."> 
+                    <h3>Negu</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nostrum, quaerat doloribus incidunt inventore odit distinctio? Temporibus non vitae soluta doloremque repellat cupiditate, voluptas ut ad ipsum, eius, et numquam?</p>
                 </div>
-                <div class="col">
-                    <img src="../source/images/card1.jpg" class="card-img-top" height="165px alt="...">     
+                <div class="col-12 col-lg-4">
+                    <img src="../source/images/thomas.png" class="card-img-top border border-danger-subtle rounded" style="width:150px;height:150px" alt="...">  
+                    <h3>Thomas</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nostrum, quaerat doloribus incidunt inventore odit distinctio? Temporibus non vitae soluta doloremque repellat cupiditate, voluptas ut ad ipsum, eius, et numquam?</p>   
                 </div>
-                <div class="col">
-                    <img src="../source/images/logo3.png" class="card-img-top" height="165px alt="...">
+                <div class="col-12 col-lg-4">
+                    <img src="../source/images/logo3.png" class="card-img-top border border-danger-subtle rounded" style="width:150px;height:150px" alt="...">
+                    <h3>Negu</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nostrum, quaerat doloribus incidunt inventore odit distinctio? Temporibus non vitae soluta doloremque repellat cupiditate, voluptas ut ad ipsum, eius, et numquam?</p>
                 </div>
             </div>
         </div>
