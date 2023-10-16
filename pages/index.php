@@ -167,6 +167,23 @@
         </div>
     </div>
 
+    <!-- Section des témoignages -->
+    <div class="container text-center" id="temoignages">
+        <h2 class="m-5 perso_colorYellow">Mes témoignagent</h2>
+        <div class="m-5 container text-center">
+            <div class="row">
+                <div class="col">
+                    <img src="../source/images/card1.jpg" class="card-img-top" height="165px alt="..."> 
+                </div>
+                <div class="col">
+                    <img src="../source/images/card1.jpg" class="card-img-top" height="165px alt="...">     
+                </div>
+                <div class="col">
+                    <img src="../source/images/logo3.png" class="card-img-top" height="165px alt="...">
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     
