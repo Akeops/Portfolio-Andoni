@@ -169,7 +169,7 @@
 
     <!-- Section des témoignages -->
     <div class="container text-center" id="temoignages">
-        <h2 class="m-5 perso_colorYellow">Mes témoignagent</h2>
+        <h2 class="m-5 perso_colorYellow">Mes témoignages</h2>
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-4">

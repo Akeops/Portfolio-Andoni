@@ -14,6 +14,6 @@
     <body>
         <?php require("menu.php"); ?>
         <?= $content ?>
-        <div class="nav-link" style="background-color: black;">© Lalanne-Berdouticq Andoni - Portfolio</div>
+        <div class="nav-link text-center" style="background-color: black;">© Lalanne-Berdouticq Andoni - Portfolio</div>
     </body>
 </html>
