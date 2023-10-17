@@ -39,10 +39,10 @@ body {
     color: rgba(224,121,28,255) !important;
 }
 
-img + h3 {
+img + h3 { /* Titre blanc pour les témoignages */
     color: white;
 }
 
-img + h3 + p {
+img + h3 + p { /* Texte blanc pour les témoignages */
     color: white;
 }
