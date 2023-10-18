@@ -5,11 +5,9 @@
     <table class="table table-borderless">
         <tbody>
             <tr>
-                <th scope="row">1</th>
-                <td>Jacob</td>
+                <td><img src="../source/images/contact/telephone.jpg"/></td>
             </tr>
             <tr>
-                <th scope="row">2</th>
                 <td>Jacob</td>
             </tr>
             <tr>
