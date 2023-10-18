@@ -9,19 +9,22 @@
     <div class="collapse navbar-collapse perso_colorJaune" id="navbarSupportedContent">
       <ul class="navbar-nav mb-2 mb-lg-0 perso_colorJaune ms-auto ml-auto">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#accueil">Accueil</a>
+          <a class="nav-link active" aria-current="page" href="index.php#accueil">Accueil</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#presentation">Présentation</a>
+          <a class="nav-link" href="index.php#presentation">Présentation</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#competences">Compétences</a>
+          <a class="nav-link" href="index.php#competences">Compétences</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#mesProjets">Mes projets</a>
+          <a class="nav-link" href="index.php#mesProjets">Mes projets</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#temoignages">Témoignages</a>
+          <a class="nav-link" href="index.php#temoignages">Témoignages</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.php">Contact</a>
         </li>
       </ul>
   </div>
