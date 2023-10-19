@@ -18,17 +18,21 @@
 
 <div class="container text-center">
     <h2 class="m-5 perso_colorYellow">Formulaire de contact</h2>
-    <form>
+    <form method="POST" action=""> 
         <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label perso_colorYellow">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <label for="exampleInputEmail1" class="form-label perso_colorYellow">Adresse mail</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" name="mail" placeholder="Entrez votre mail">
             <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
         </div>
         <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label perso_colorYellow">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
+            <label for="disabledSelect" class="form-label perso_colorYellow" id="objet" name="objet">Objet du mail</label>
+            <select id="disabledSelect" class="form-select">
+                <option value="question">Question</option>
+                <option value="remarque">Remarque</option>
+                <option value="autre">Autre</option>
+            </select>
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary">Valider</button>
     </form>
 </div>
 

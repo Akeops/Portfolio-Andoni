@@ -11,12 +11,11 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
-    background-color: rgba(28,33,40,255) !important;
-}
+/*background-color: rgba(221,207,200,255) !important;  /////Couleur beige agréable pour alterner en couleur de fond de section */
+
 
 /* MENU */
-.perso_bgBlack {
+.perso_bgBlack { /* Background-color navbar */
     background-color: rgba(59,14,17,255) !important;
 }
 
@@ -31,18 +30,8 @@ body {
 
 
 /* CAROUSSEL */
-.perso_bgYellowDegrade { /* Couleur de fond du caroussel noir */
-    background-color: rgba(28,33,40,255);
-}
+
 
 .perso_colorYellow { /* Couleur du titre des sections */
-    color: rgba(224,121,28,255) !important;
-}
-
-img + h3 { /* Titre blanc pour les témoignages */
-    color: white;
-}
-
-img + h3 + p { /* Texte blanc pour les témoignages */
-    color: white;
+    color: black !important;
 }
