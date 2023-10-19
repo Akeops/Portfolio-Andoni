@@ -5,10 +5,10 @@
     <table class="table table-borderless">
         <tbody>
             <tr>
-                <td><img src="../source/images/contact/telephone.jpg"/></td>
+                <td><img src="../source/images/contact/contact1.png" style="width:150px;height:100px;"/></td>
             </tr>
             <tr>
-                <td>Jacob</td>
+                <td><img src="../source/images/contact/contact2.png" style="width:150px;height:100px;"/></td>
             </tr>
             <tr>
                 <th scope="row">3</th>
