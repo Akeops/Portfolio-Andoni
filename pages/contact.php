@@ -5,14 +5,12 @@
     <table class="table table-borderless">
         <tbody>
             <tr>
-                <td><img src="../source/images/contact/contact1.png" style="width:100px;"/></td>
+                <td><img src="../source/images/contact/contact1.png" style="width:100px;" class="rounded-circle"/></td>
+                <td><img src="../source/images/contact/contact2.png" style="width:100px;" class="rounded-circle"/></td>
             </tr>
             <tr>
-                <td><img src="../source/images/contact/contact2.png" style="width:100px;"/></td>
-            </tr>
-            <tr>
-                <th scope="row">3</th>
-                <td colspan="2">Larry the Bird</td>
+                <td>06.62.45.57.92</td>
+                <td>lalanne.andoni1@gmail.com</td>
             </tr>
         </tbody>
     </table>
