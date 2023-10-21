@@ -50,7 +50,6 @@ if(isset($_POST['mail'])){
 </div>
 
 <?php
-
     $content = ob_get_clean();
     require "commons/template.php";
 ?>
