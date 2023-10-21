@@ -11,7 +11,10 @@ html {
     scroll-behavior: smooth;
 }
 
-/*background-color: rgba(221,207,200,255) !important;  /////Couleur beige agréable pour alterner en couleur de fond de section */
+body {
+    background-color: RGBA(221,207,200,0.7) !important; 
+}
+
 
 
 /* MENU */
@@ -31,5 +34,21 @@ html {
 
 /* CAROUSSEL */
 .perso_colorYellow { /* Couleur du titre des sections */
-    color: rgba(227,191,45,255) !important;
+    font-weight: bold;
 }
+
+/* SECTION TEMOIGNAGE */
+
+#temoignages div.col-12 {
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 2px;
+    background-color: RGBA(221,207,200,1);
+}
+
+/* Description des témoigagent */
+div p {
+    color: RGBA(0,0,0,0.68);
+    font-weight: bolder;
+}
+
