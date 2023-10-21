@@ -2,7 +2,7 @@
 
 <div class="container text-center">
     <h2 class="m-5 perso_colorYellow">Mes informations personnelles</h2>
-    <table class="table table-borderless">
+    <table class="m-5 table table-borderless">
         <tbody>
             <tr>
                 <td><img src="../source/images/contact/contact1.png" style="width:100px;" class="rounded-circle"/></td>
@@ -20,12 +20,12 @@
     <h2 class="m-5 perso_colorYellow">Formulaire de contact</h2>
     <form method="POST" action=""> 
         <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label perso_colorYellow">Adresse mail</label>
+            <label for="exampleInputEmail1" class="form-label perso_colorYellow ">Adresse mail:</label>
             <input type="email" class="form-control" id="exampleInputEmail1" name="mail" placeholder="Entrez votre mail">
             <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
         </div>
         <div class="mb-3">
-            <label for="disabledSelect" class="form-label perso_colorYellow" id="objet" name="objet">Objet du mail</label>
+            <label for="disabledSelect" class="form-label perso_colorYellow" id="objet" name="objet">Objet du mail:</label>
             <select id="disabledSelect" class="form-select">
                 <option value="question">Question</option>
                 <option value="remarque">Remarque</option>
