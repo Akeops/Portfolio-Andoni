@@ -33,8 +33,3 @@ html {
 .perso_colorYellow { /* Couleur du titre des sections */
     color: rgba(227,191,45,255) !important;
 }
-
-
-label {
-    text-align: left !important;
-}
