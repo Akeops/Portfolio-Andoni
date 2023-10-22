@@ -170,7 +170,7 @@
     <!-- Section des témoignages -->
     <div class="container text-center" id="temoignages">
         <h2 class="m-5 perso_colorYellow">Mes témoignages</h2>
-        <div class="container">
+        <div class="m-5 container">
             <div class="row">
                 <div class="col-12 col-lg-4">
                     <img src="../source/images/card1.jpg" class="card-img-top border border-danger-subtle rounded" style="width:150px;height:150px;" alt="..."> 
