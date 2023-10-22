@@ -40,11 +40,15 @@ body {
 /* SECTION TEMOIGNAGE */
 
 #temoignages div.col-12 {
-    border: 1px solid;
+    border: 1px;
     border-radius: 10px;
     margin: 5px 4rem 5px 4rem;
-    background-color: RGBA(221,207,200,1);
+    background-color: rgb(255,245,238);
     width: 18rem;
+}
+
+#temoignages div img {
+    margin-top: 5px;
 }
 
 /* Description des témoigagent */
