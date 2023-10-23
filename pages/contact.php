@@ -2,9 +2,15 @@
 
 <?php 
 if(isset($_POST['mail'])){
-    echo "Envoi du message: " . $_POST['mail'] . "<br>";
-    echo "Envoi du message: " . $_POST['objet'] . "<br>";
-    echo "Envoi du message: " . $_POST['message'] . "<br>";
+    $to = "lalanne.andoni1@gmail.com";
+    $from = "Envoi du message: " . $_POST['mail'] . "<br>";
+    $objet =  "Envoi du message: " . $_POST['objet'] . "<br>";
+    $message = "Envoi du message: " . $_POST['message'] . "<br>";
+    mail($to, $objet, $message, $from); ?>
+        <div class="alert alert-success" role="alert">
+            Message envoyé!
+        </div>
+    <?php
 }
 
 ?>
