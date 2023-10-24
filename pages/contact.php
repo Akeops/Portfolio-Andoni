@@ -1,4 +1,6 @@
-<?php ob_start(); ?>
+<?php ob_start(); 
+require("../utile/formatage.php");
+?>
 
 <?php 
 if(isset($_POST['mail'])){
@@ -12,11 +14,11 @@ if(isset($_POST['mail'])){
         </div>
     <?php
 }
-
 ?>
 
 <div class="container text-center">
-    <h2 class="m-5 perso_colorYellow">Mes informations personnelles</h2>
+    <?php formatageTitre("Mes informations personnelles");?>
+    <!-- <h2 class="m-5 perso_colorYellow">Mes informations personnelles</h2> -->
     <table class="m-5 table table-borderless">
         <tbody>
             <tr>
@@ -32,7 +34,8 @@ if(isset($_POST['mail'])){
 </div>
 
 <div class="container text-center">
-    <h2 class="m-5 perso_colorYellow">Formulaire de contact</h2>
+    <?php formatageTitre("Formulaire de contact");?>
+    <!-- <h2 class="m-5 perso_colorYellow">Formulaire de contact</h2> -->
     <form method="POST" action=""> 
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label perso_colorYellow ">Adresse mail:</label>
