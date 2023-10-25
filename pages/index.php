@@ -32,7 +32,7 @@ require ('../utile/formatage.php');
 
 <!-- Intégration vidéo -->
 <div class="container text-center" id="presentation">
-    <?php formatageTitre("Andoni Lalanne-Berdouticq"); ?>
+    <?= formatageTitre("Andoni Lalanne-Berdouticq") ?>
     <!-- <h2 class="m-5 perso_colorYellow">Andoni Lalanne-Berdouticq</h2> -->
     <div class="ratio ratio-16x9 img-thumbnail">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/SpfIwlAYaKk?si=0-VEXcV-HTMQv9Kv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -41,7 +41,7 @@ require ('../utile/formatage.php');
 
 <!-- Progress bar -->
 <div class="container text-center" id="competences">
-    <?php formatageTitre("Mes compétences"); ?>
+    <?= formatageTitre("Mes compétences") ?>
     <!-- <h2 class="m-5 perso_colorYellow"> Mes compétences</h2> -->
     <div class="row">
         <div class="col-12 col-md-6 perso_colorYellow">
