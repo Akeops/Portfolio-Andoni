@@ -75,7 +75,7 @@ require ('../utile/formatage.php');
 
 <!-- Card -->
 <div class="container text-center" id="mesProjets">
-    <?php formatageTitre("Mes projets"); ?>
+    <?= formatageTitre("Mes projets") ?>
     <!-- <h2 class="m-5 perso_colorYellow">Mes projets</h2> -->
     <div class="m-5 container text-center">
         <div class="row">
@@ -174,7 +174,7 @@ require ('../utile/formatage.php');
 
     <!-- Section des témoignages -->
     <div class="container text-center" id="temoignages">
-        <?php formatageTitre("Mes témoignages"); ?>
+        <?= formatageTitre("Mes témoignages") ?>
         <!-- <h2 class="m-5 perso_colorYellow">Mes témoignages</h2> -->
         <div class="m-5 container">
             <div class="row">

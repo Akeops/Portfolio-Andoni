@@ -17,7 +17,7 @@ if(isset($_POST['mail'])){
 ?>
 
 <div class="container text-center">
-    <?php formatageTitre("Mes informations personnelles");?>
+    <?= formatageTitre("Mes informations personnelles") ?>
     <!-- <h2 class="m-5 perso_colorYellow">Mes informations personnelles</h2> -->
     <table class="m-5 table table-borderless">
         <tbody>
@@ -34,7 +34,7 @@ if(isset($_POST['mail'])){
 </div>
 
 <div class="container text-center">
-    <?php formatageTitre("Formulaire de contact");?>
+    <?= formatageTitre("Formulaire de contact") ?>
     <!-- <h2 class="m-5 perso_colorYellow">Formulaire de contact</h2> -->
     <form method="POST" action=""> 
         <div class="mb-3">
