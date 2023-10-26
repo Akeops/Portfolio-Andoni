@@ -33,7 +33,6 @@ require ('../utile/formatage.php');
 <!-- Intégration vidéo -->
 <div class="container text-center" id="presentation">
     <?= formatageTitre("Andoni Lalanne-Berdouticq") ?>
-    <!-- <h2 class="m-5 perso_colorYellow">Andoni Lalanne-Berdouticq</h2> -->
     <div class="ratio ratio-16x9 img-thumbnail">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/SpfIwlAYaKk?si=0-VEXcV-HTMQv9Kv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
@@ -42,7 +41,6 @@ require ('../utile/formatage.php');
 <!-- Progress bar -->
 <div class="container text-center" id="competences">
     <?= formatageTitre("Mes compétences") ?>
-    <!-- <h2 class="m-5 perso_colorYellow"> Mes compétences</h2> -->
     <div class="row">
         <div class="col-12 col-md-6 perso_colorYellow">
             HTML/CSS
@@ -76,7 +74,6 @@ require ('../utile/formatage.php');
 <!-- Card -->
 <div class="container text-center" id="mesProjets">
     <?= formatageTitre("Mes projets") ?>
-    <!-- <h2 class="m-5 perso_colorYellow">Mes projets</h2> -->
     <div class="m-5 container text-center">
         <div class="row">
             <div class="col-12 col-lg-4">
@@ -175,7 +172,6 @@ require ('../utile/formatage.php');
     <!-- Section des témoignages -->
     <div class="container text-center" id="temoignages">
         <?= formatageTitre("Mes témoignages") ?>
-        <!-- <h2 class="m-5 perso_colorYellow">Mes témoignages</h2> -->
         <div class="m-5 container">
             <div class="row">
                 <div class="col-12 col-lg-4">
