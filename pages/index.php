@@ -1,5 +1,5 @@
 <?php ob_start(); 
-require ('../utile/formatage.php');
+require '../utile/formatage.php';
 ?>
 
 <!-- Caroussel -->
