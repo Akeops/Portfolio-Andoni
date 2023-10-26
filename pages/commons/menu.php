@@ -1,13 +1,14 @@
 <nav class="navbar ml-auto navbar-expand-xl  perso_bgBlack sticky-top">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">
-      <img src="../source/images/logo3.png" alt="Bootstrap" width="30" height="24">
+    <a class="navbar-brand nav-link" href="#">
+      <img src="../source/images/logo3.png" alt="Bootstrap" width="50">
+      &nbsp;&nbsp;&nbsp;Lalanne-Berdouticq Andoni
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse perso_colorJaune" id="navbarSupportedContent">
-      <ul class="navbar-nav mb-2 mb-lg-0 perso_colorJaune ms-auto ml-auto">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mb-2 mb-lg-0 ms-auto ml-auto">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="index.php#accueil">Accueil</a>
         </li>

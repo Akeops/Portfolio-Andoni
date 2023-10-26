@@ -31,6 +31,16 @@ body {
     color: rgba(224,121,28,255) !important;
 }
 
+.navbar-brand { 
+    animation-name: brand;
+    animation-duration: 2s;
+    position: relative;
+}
+@keyframes brand { /* Permet de cibler l'élément brand */
+        0% {left:-1000px;}
+        100% {left:0px;}
+}
+
 
 /* CAROUSSEL */
 .perso_colorYellow { /* Couleur du titre des sections */
