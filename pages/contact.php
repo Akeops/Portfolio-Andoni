@@ -1,5 +1,25 @@
 <?php ob_start(); 
-require "../utile/formatage.php";
+require "../utile/formatage.php"; /* Page nécessaire pour le bon affichage des titres de sections */
+
+function connectionBDD(){
+    try {
+
+        $db = new PDO('mysql:host=localhost;dbname=contact;charset=utf8', 'root', '');
+        $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+        $db->exec('SET NAMES utf8');
+
+    } catch (PDOException $e) {
+        die('Erreur : ' . $e->getMessage());
+        // Nous pourrions par exemple envoyer un email au webmaster et logger l'erreur en base de données
+    }
+}
+    
+function insertContact($from, $objet, $message){
+    connectionBDD();
+    $sql = "INSERT INTO email(email, objet, message) VALUES($from, $objet, $message)";
+    $query = $db->exec($sql);
+}
+
 ?>
 
 <?php 
