@@ -38,11 +38,11 @@ if(isset($_POST['email'])){
         $message = "Envoi du message: " . $_POST['message'] . "<br>";
 
         insertContact($_POST['email'], $_POST['objet'], $_POST['message']);
-        /*mail($to, $objet, $message, $from); ?>
+        mail($to, $objet, $message, $email); ?>
             <div class="alert alert-success" role="alert">
                 Message envoyé!
-            </div>*/
-    //<?php
+            </div>
+    <?php
 }
 ?>
 
