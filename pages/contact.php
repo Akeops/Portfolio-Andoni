@@ -7,6 +7,7 @@ function connectionBDD(){
         $db = new PDO('mysql:host=localhost;dbname=contact;charset=utf8', 'root', '');
         $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         $db->exec('SET NAMES utf8');
+        return $db;
 
     } catch (PDOException $e) {
         die('Erreur : ' . $e->getMessage());
@@ -14,25 +15,34 @@ function connectionBDD(){
     }
 }
     
-function insertContact($from, $objet, $message){
-    connectionBDD();
-    $sql = "INSERT INTO email(email, objet, message) VALUES($from, $objet, $message)";
-    $query = $db->exec($sql);
+function insertContact($email, $objet, $message){
+    $db = connectionBDD();
+    try {
+        $sql = "INSERT INTO email(email, objet, message) VALUES(:email, :objet, :message)";
+        $stmt = $db->prepare($sql);
+        $stmt->bindParam(':email', $email);
+        $stmt->bindParam(':objet', $objet);
+        $stmt->bindParam(':message', $message);
+        $stmt->execute();
+    }
+    catch (PDOException $e){
+        die('Erreur : ' . $e->getMessage());
+    }
+    
 }
 
-?>
+if(isset($_POST['email'])){
+        $to = "lalanne.andoni1@gmail.com";
+        $email = "Envoi du message: " . $_POST['email'] . "<br>";
+        $objet =  "Envoi du message: " . $_POST['objet'] . "<br>";
+        $message = "Envoi du message: " . $_POST['message'] . "<br>";
 
-<?php 
-if(isset($_POST['mail'])){
-    $to = "lalanne.andoni1@gmail.com";
-    $from = "Envoi du message: " . $_POST['mail'] . "<br>";
-    $objet =  "Envoi du message: " . $_POST['objet'] . "<br>";
-    $message = "Envoi du message: " . $_POST['message'] . "<br>";
-    mail($to, $objet, $message, $from); ?>
-        <div class="alert alert-success" role="alert">
-            Message envoyé!
-        </div>
-    <?php
+        insertContact($_POST['email'], $_POST['objet'], $_POST['message']);
+        /*mail($to, $objet, $message, $from); ?>
+            <div class="alert alert-success" role="alert">
+                Message envoyé!
+            </div>*/
+    //<?php
 }
 ?>
 
@@ -57,7 +67,7 @@ if(isset($_POST['mail'])){
     <form method="POST" action=""> 
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label perso_colorYellow ">Adresse mail:</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" name="mail" placeholder="Entrez votre mail">
+            <input type="email" class="form-control" id="exampleInputEmail1" name="email" placeholder="Entrez votre mail">
             <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
         </div>
         <div class="mb-3">
