@@ -15,7 +15,7 @@ function connectionBDD(){
     }
 }
     
-function insertContact($email, $objet, $message){
+function insertContact($email, $objet, $message){ //permet de mettre les données dans la bdd
     $db = connectionBDD();
     try {
         $sql = "INSERT INTO email(email, objet, message) VALUES(:email, :objet, :message)";
