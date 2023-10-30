@@ -196,6 +196,7 @@ require '../utile/formatage.php';
             </div>
         </div>
     </div>
+    <script src="../js/main.js"></script>
 
 <?php
     $content = ob_get_clean();
