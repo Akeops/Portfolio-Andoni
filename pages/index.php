@@ -178,17 +178,17 @@ require '../utile/formatage.php';
         <?= formatageTitre("Mes témoignages") ?>
         <div class="container">
             <div class="row">
-                <div class="col-12 col-lg-4" style="width: 18rem;">
+                <div class="col-12 col-lg-4 temoignage1" style="width: 18rem;">
                     <img src="../source/images/card1.jpg" class="card-img-top border border-danger-subtle rounded" style="width:150px;height:150px;" alt="..."> 
                     <h3>Negu</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nostrum, quaerat doloribus incidunt inventore odit distinctio? Temporibus non vitae soluta doloremque repellat cupiditate, voluptas ut ad ipsum, eius, et numquam?</p>
                 </div>
-                <div class="col-12 col-lg-4" style="width: 18rem;">
+                <div class="col-12 col-lg-4 temoignage2" style="width: 18rem;">
                     <img src="../source/images/thomas.png" class="card-img-top border border-danger-subtle rounded" style="width:150px;height:150px;" alt="...">  
                     <h3>Thomas</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nostrum, quaerat doloribus incidunt inventore odit distinctio? Temporibus non vitae soluta doloremque repellat cupiditate, voluptas ut ad ipsum, eius, et numquam?</p>   
                 </div>
-                <div class="col-12 col-lg-4" style="width: 18rem;">
+                <div class="col-12 col-lg-4 temoignage3" style="width: 18rem;">
                     <img src="../source/images/logo3.png" class="card-img-top border border-danger-subtle rounded" style="width:150px;height:150px;" alt="...">
                     <h3>Negu</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nostrum, quaerat doloribus incidunt inventore odit distinctio? Temporibus non vitae soluta doloremque repellat cupiditate, voluptas ut ad ipsum, eius, et numquam?</p>
