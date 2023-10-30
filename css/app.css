@@ -72,7 +72,7 @@ body {
 .monBouton {
     animation-name: bouton;
     animation-duration: 1.1s;
-
+    width: 200px;
     animation-iteration-count: infinite; /* Permet de faire indéfiniment l'animation */
     animation-direction: alternate; /* L'animation partira de 0% à 100% puis de 100% à 0% */
 }
