@@ -4,7 +4,7 @@ require "../utile/formatage.php"; /* Page nécessaire pour le bon affichage des 
 function connectionBDD(){
     try {
 
-        $db = new PDO('mysql:host=localhost;dbname=contact;charset=utf8', 'root', '');
+        $db = new PDO('mysql:host=localhost:3306;dbname=contact;charset=utf8', 'phpmyadmin', '123');
         $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         $db->exec('SET NAMES utf8');
         return $db;

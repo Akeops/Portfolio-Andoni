@@ -30,7 +30,7 @@ require '../utile/formatage.php';
         </button>
 </div>
 
-<div class="text-center mt-3">
+<div class="text-center mt-3 monBouton">
     <a class="btn btn-success rounded-pill" href="../source/pdf/Lalanne_Berdouticq_CV.pdf" download="Lalanne-Berdouticq-Andoni">Télécharger mon CV</a>
 </div>
 
