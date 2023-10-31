@@ -96,7 +96,7 @@ div p {
     font-weight: bolder;
 }
 
-.temoignage1 {
+.animationTemoignage1 {
     animation-name: temoignage1;
     animation-duration: 2s;
     position: relative;
@@ -107,7 +107,7 @@ div p {
     100% {left: 0px;}
 }
 
-.temoignage2 {
+.animationTemoignage2 {
     animation-name: temoignage1;
     animation-duration: 1.5s;
     position: relative;
@@ -118,7 +118,7 @@ div p {
     100% {left: 0px;}
 }
 
-.temoignage3 {
+.animationTemoignage3 {
     animation-name: temoignage1;
     animation-duration: 1s;
     position: relative;
