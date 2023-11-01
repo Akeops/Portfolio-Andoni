@@ -44,6 +44,8 @@ body {
     animation-name: lien;
     animation-duration: 1.1s;
     position: relative;
+    animation: lien forwards; 
+    animation-fill-mode: forwards;
 }
 @keyframes lien { /* Permet de cibler l'élément nav-item */
         0%{left:1000px;} /* Fais une transition de la position -1000px à 0px depuis la droite*/
