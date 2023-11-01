@@ -80,7 +80,7 @@ require '../utile/formatage.php';
     <?= formatageTitre("Mes projets") ?>
     <div class="m-5 container text-center">
         <div class="row">
-            <div class="col-12 col-lg-4">
+            <div class="col-12 col-md-6 col-lg-4">
                 <div class="card" style="width: 18rem;">
                     <img src="../source/images/card1.jpg" class="card-img-top" height="165px" alt="...">
                     <div class="card-body">
@@ -91,7 +91,7 @@ require '../utile/formatage.php';
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-lg-4">
+            <div class="col-12 col-md-6 col-lg-4">
                 <div class="card" style="width: 18rem;">
                     <img src="../source/images/card2.jpg" class="card-img-top" height="165px" alt="...">
                     <div class="card-body">
@@ -101,7 +101,7 @@ require '../utile/formatage.php';
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-lg-4">
+            <div class="col-12 col-md-6 col-lg-4">
                 <div class="card" style="width: 18rem;">
                     <img src="../source/images/card3.jpg" class="card-img-top" height="165px" alt="...">
                     <div class="card-body">
